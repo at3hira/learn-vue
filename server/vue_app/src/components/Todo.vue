@@ -42,6 +42,7 @@ export default {
             } else {
                 var new_todo = {title: this.title, important: this.important, completed: false}
                 this.todos.push(new_todo);
+                this.todos = this.todos.filter(todo => !todo.completed)
             }
         }
     }
