@@ -1,24 +1,13 @@
-# new_todo
+# Vue.js + VuetifyでTODOリストを作成
 
-## Project setup
+## Vuetify導入
+まずvueのプロジェクト作成。
 ```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
+# vue create <プロジェクト名>
+# cd <プロジェクト名>
 ```
 
-### Compiles and minifies for production
+Vuetifyインストール
 ```
-npm run build
+# vue add vuetify
 ```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
